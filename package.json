@@ -4,7 +4,7 @@
   "description": "Cara Ecommerce is a sleek, user-friendly, and responsive online shopping platform built entirely with Vanilla JavaScript, HTML, and CSS. This repository contains the frontend part of the website, providing a seamless shopping experience for users across various devices.",
   "main": "index.js",
   "scripts": {
-    "start": "serve -s . -l $PORT",
+    "start": "serve . -l $PORT",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
