@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Cara</title>
+        <title>IXCHEL – Detalle de producto</title>
         <link rel="icon" href="../img/favicon.ico">
         <link rel="stylesheet" href="../CSS/style.css">
         <link rel="stylesheet" href="../CSS/shop.css">
@@ -16,143 +16,137 @@
     <body>
         <!-- NavBar -->
         <section id="Header">
-            <a href="../index.html"><img src="../img/logo.png" alt="Cara" class="logo"></a>
+            <a href="../index.html">
+                <img src="../img/logo.png" alt="IXCHEL" class="logo" style="height:60px; width:auto;">
+            </a>
 
             <div>
                 <ul id="navbar">
-                    <li><a  href="../index.html">Home</a></li>
-                    <li><a class="active" href="../subpages/shop.html">Shop</a></li>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a class="active" href="../subpages/shop.html">Catálogo</a></li>
                     <li><a href="../subpages/blog.html">Blog</a></li>
-                    <li><a href="../subpages/about.html">About</a></li>
-                    <li><a href="../subpages/contact.html">Contact</a></li>
-                    <li class="lg-bag"><a href="../subpages/cart.html"><i class="fa-solid fa-bag-shopping head-Cart"></i></a></li>
+                    <li><a href="../subpages/about.html">Sobre nosotros</a></li>
+                    <li><a href="../subpages/contact.html">Contacto</a></li>
                     <a href="#" id="Close"><i class="fa-solid fa-xmark"></i></a>
                 </ul>
             </div>
 
             <div id="mobile">
-                <a href="../subpages/cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
-                <i  id="bar" class="fa-solid fa-bars"></i>
+                <i id="bar" class="fa-solid fa-bars"></i>
             </div>
 
         </section>
 
         <!-- Product Detail -->
         <section id="prodetails" class="section-p1">
-            <!-- Single Product Image -->
+            <!-- Imagen principal del producto -->
             <div class="single-pro-img">
-                <img src="../img/products/f1.jpg" alt="P-1" width="100%" id="mainImg">
+                <img src="../img/products/f1.jpg" alt="Producto IXCHEL" width="100%" id="mainImg">
 
                 <div class="small-img-group">
                     <div class="small-img-col">
-                        <img src="../img/products/f1.jpg" width="100%" alt="P-1" class="small-img">
+                        <img src="../img/products/f1.jpg" width="100%" alt="Imagen 1" class="small-img" id="thumb1">
                     </div>
                     <div class="small-img-col">
-                        <img src="../img/products/f2.jpg" width="100%" alt="P-2" class="small-img">
+                        <img src="../img/products/f1.jpg" width="100%" alt="Imagen 2" class="small-img" id="thumb2">
                     </div>
                     <div class="small-img-col">
-                        <img src="../img/products/f3.jpg" width="100%" alt="P-3" class="small-img">
+                        <img src="../img/products/f1.jpg" width="100%" alt="Imagen 3" class="small-img" id="thumb3">
                     </div>
                     <div class="small-img-col">
-                        <img src="../img/products/f4.jpg" width="100%" alt="P-4" class="small-img">
+                        <img src="../img/products/f1.jpg" width="100%" alt="Imagen 4" class="small-img" id="thumb4">
                     </div>
-
                 </div>
             </div>
 
-            <!-- Single Product Detail -->
+            <!-- Detalles del producto -->
             <div class="single-pro-details">
-                <h5>Home / T-Shirt</h5>
-                <h4>Man's Fashion T-Shirt</h4>
-                <h2>$78.00</h2>
-                <select>
-                    <option>Select Size</option>
-                    <option>XL</option>
-                    <option>Medium</option>
-                    <option>Small</option>
-                    <option>Large</option>
-                </select>
-                <input type="number" value="1">
-                <button class="normal">Add to cart</button>
-                <h4>Product Details</h4>
-                <span>This stylish men's fashion t-shirt boasts a modern and sleek design, perfect for the contemporary
-                    urban wardrobe.The unique graphic print on the front adds an eye-catching element to elevate any casual
-                    outfit.
+                <h5>Inicio / Catálogo</h5>
+                <h4 id="product-name">MacBook Air M4</h4>
+                <h2 id="product-price">Q 8,500.00</h2>
+
+                <h4>Descripción del producto</h4>
+                <span id="product-description">
+                    MacBook Air con chip M4, ideal para trabajo, estudio y uso diario. 
+                    Equipo ligero y potente, con excelente duración de batería y pantalla de alta calidad. 
+                    Perfecto para quienes buscan rendimiento y portabilidad en un solo dispositivo.
                 </span>
+
+                <h4>Características generales</h4>
+                <ul id="product-features">
+                    <li>Pantalla de alta resolución.</li>
+                    <li>Excelente autonomía de batería.</li>
+                    <li>Diseño delgado y ligero.</li>
+                    <li>Ideal para ofimática, estudio y contenido multimedia.</li>
+                </ul>
+
+                <!-- Botón de WhatsApp -->
+                <div style="margin-top: 20px;">
+                    <p><strong>¿Te interesa este producto?</strong></p>
+                    <a 
+                        id="whatsapp-btn"
+                        class="normal" 
+                        style="display:inline-block; text-align:center; text-decoration:none;"
+                        href="#"
+                        target="_blank"
+                    >
+                        Comprar por WhatsApp
+                    </a>
+                </div>
             </div>
 
         </section>
 
-        <!-- Products -->
+        <!-- Productos relacionados -->
         <section id="product1" class="section-p1">
-            <h2>Featured Products</h2>
-            <p>Summer Collection New Morden Design</p>
+            <h2>Otros productos de IXCHEL</h2>
+            <p>Revisa también estos accesorios y dispositivos</p>
             
             <div class="pro-container">
 
-                <div class="pro">
-                    <img src="../img/products/f6.jpg" alt="P-6">
+                <div class="pro" onclick="window.location.href='../index.html#product1';">
+                    <img src="../img/products/f2.png" alt="Vibe Beam JBL">
                     <div class="des">
-                        <span>cara</span>
-                        <h5>Cartoon Astronaut T-Shirts</h5>
-                        <div class="star">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <h4>$129</h4>
-                    </div>
-                    <a href="subpages/cart.html" class="cart"><i class="fa-solid fa-bag-shopping" ></i></a>
-                </div>
-                <div class="pro">
-                    <img src="../img/products/n1.jpg" alt="P-7">
-                    <div class="des">
-                        <span>cara</span>
-                        <h5>Cartoon Astronaut T-Shirts</h5>
+                        <span>IXCHEL</span>
+                        <h5>Vibe Beam JBL</h5>
                         <div class="star">
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                         </div>
-                        <h4>$69</h4>
+                        <h4>Q 400.00</h4>
                     </div>
-                    <a href="subpages/cart.html" class="cart"><i class="fa-solid fa-bag-shopping"></i></a>
                 </div>
 
-                <div class="pro">
-                    <img src="../img/products/n8.jpg" alt="P-1">
+                <div class="pro" onclick="window.location.href='../index.html#product1';">
+                    <img src="../img/products/f3.png" alt="AirPods 4 con cancelación de ruido">
                     <div class="des">
-                        <span>cara</span>
-                        <h5>Cartoon Astronaut T-Shirts</h5>
+                        <span>IXCHEL</span>
+                        <h5>AirPods 4 con cancelación de ruido</h5>
                         <div class="star">
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                         </div>
-                        <h4>$109</h4>
+                        <h4>Q 1,300.00</h4>
                     </div>
-                    <a href="subpages/cart.html" class="cart"><i class="fa-solid fa-bag-shopping" ></i></a>
                 </div>
 
-                <div class="pro">
-                    <img src="../img/products/n5.jpg" alt="P-2">
+                <div class="pro" onclick="window.location.href='../index.html#product1';">
+                    <img src="../img/products/f4.png" alt="AirPods 4 normales">
                     <div class="des">
-                        <span>cara</span>
-                        <h5>Cartoon Astronaut T-Shirts</h5>
+                        <span>IXCHEL</span>
+                        <h5>AirPods 4 normales</h5>
                         <div class="star">
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
                         </div>
-                        <h4>$99</h4>
+                        <h4>Q 100.00</h4>
                     </div>
-                    <a href="subpages/cart.html" class="cart"><i class="fa-solid fa-bag-shopping" ></i></a>
                 </div>
 
             </div>
@@ -161,32 +155,27 @@
         <!-- NewsLetter -->
         <section id="newsletter" class="section-p1 section-m1">
             <div class="newstext">
-                <h4>Sign Up For NewsLetters</h4>
-                <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+                <h4>Suscríbete a las novedades</h4>
+                <p>Recibe noticias de nuevos productos y <span>ofertas especiales.</span></p>
             </div>
 
             <div class="form">
-                <input type="text" placeholder="Your email address">
-
-                <a target="_blank" href="https://newsletter-anuragino.onrender.com">
-                    <button class="normal">Sign Up</button> 
-                </a>
-                <!-- <button class="normal">Sign Up</button> -->
+                <input type="text" placeholder="Tu correo electrónico">
+                <button class="normal">Quiero recibir novedades</button> 
             </div>
         </section>
-
 
         <!-- Footer -->
         <footer class="section-p1 ">
             <div class="col">
-                <img src="../img/logo.png" alt="logo" class="logo">
-                <h4>Contact</h4>
-                <p><strong>Address:</strong>B2/238 Cyber Police Station Road, Rohini Sector 17, New Delhi</p>
-                <p><strong>Phone:</strong>+01 2222 3665 / (+91) 01 2345 6763</p>
-                <p><strong>Hours:</strong>10:00 - 18:00, Mon - Sat</p>
+                <img src="../img/logo.png" alt="logo IXCHEL" class="logo" style="height:60px; width:auto;">
+                <h4>Contacto</h4>
+                <p><strong>Ubicación:</strong> Guatemala (entregas en punto a acordar)</p>
+                <p><strong>Atención:</strong> Escríbenos por WhatsApp o Messenger</p>
+                <p><strong>Horario:</strong> 10:00 - 18:00, Lunes a Sábado</p>
 
                 <div class="follow">
-                    <h4>Follow us</h4>
+                    <h4>Síguenos</h4>
                     <div class="icon">
                         <i class="fa-brands fa-facebook"></i>
                         <i class="fa-brands fa-instagram"></i>
@@ -196,43 +185,139 @@
                 </div>
             </div>
 
+            <div class="col">
+                <h4>Información</h4>
+                <a href="../subpages/about.html">Sobre IXCHEL</a>
+                <a href="../subpages/blog.html">Información de entregas</a>
+                <a href="../subpages/blog.html">Política de privacidad</a>
+                <a href="../subpages/blog.html">Términos y condiciones</a>
+                <a href="../subpages/contact.html">Contáctanos</a>
+            </div>
 
             <div class="col">
-                <h4>About</h4>
-                <a href="./subpages/about.html">About Us</a>
-                <a href="./subpages/blog.html">Delivery Information</a>
-                <a href="./subpages/blog.html">Privacy Poilcy</a>
-                <a href="./subpages/blog.html">Terms & Condition</a>
-                <a href="./subpages/contact.html">Contact Us</a>
-            </div>
-            <div class="col">
-                <h4>My Account </h4>
-                <a href="#newsLetter">Sign In</a>
-                <a href="./subpages/cart.html">View Cart</a>
-                <a href="./subpages/shop.html">My WishList</a>
-                <a href="./subpages/sproduct.html">Track My Order</a>
-                <a href="./subpages/contact.html">Help</a>
+                <h4>Cómo comprar</h4>
+                <a href="../index.html#product1">Ver catálogo</a>
+                <a href="../subpages/contact.html">Comprar por WhatsApp</a>
+                <a href="../subpages/contact.html">Comprar por Messenger</a>
+                <a href="../subpages/contact.html">Preguntas frecuentes</a>
+                <a href="../subpages/contact.html">Políticas de garantía</a>
             </div>
 
             <div class="col install">
-                <h4>Install App</h4>
-                <p>From App Store or Google Play</p>
+                <h4>Formas de pago</h4>
+                <p>Consulta los métodos de pago disponibles</p>
                 <div class="row">
                     <img src="../img/pay/app.jpg" alt="app">
                     <img src="../img/pay/play.jpg" alt="play">
                 </div>
-                <p>Secured Payment Gateways</p>
+                <p>Pagos seguros</p>
                 <img src="../img/pay/pay.png" alt="pay">
             </div>
             <div class="copyright">
-                <p>©2023 Anurag Kumar. All Rights Reseverd.</p>
+                <p>©2025 IXCHEL. Basado en plantilla de Anurag Kumar.</p>
             </div>
         </footer>
-
 
         <script src="https://kit.fontawesome.com/19dfb206c9.js" crossorigin="anonymous"></script>
         <script src="../js/slider.js"></script>
         <script src="../js/script.js"></script>
+
+        <!-- Script para cambiar el contenido según el producto -->
+        <script>
+            // 1. Leer el parámetro "product" de la URL
+            const params = new URLSearchParams(window.location.search);
+            const productKey = params.get('product') || 'macbook';
+
+            // 2. Definir los productos
+            const productos = {
+                macbook: {
+                    nombre: 'MacBook Air M4',
+                    precio: 'Q 8,500.00',
+                    imagen: '../img/products/f1.jpg',
+                    descripcion: 'MacBook Air con chip M4, ideal para trabajo, estudio y uso diario. Equipo ligero y potente, con excelente duración de batería y pantalla de alta calidad.',
+                    caracteristicas: [
+                        'Pantalla de alta resolución.',
+                        'Excelente autonomía de batería.',
+                        'Diseño delgado y ligero.',
+                        'Ideal para ofimática, estudio y contenido multimedia.'
+                    ]
+                },
+                vibebeam: {
+                    nombre: 'Vibe Beam JBL',
+                    precio: 'Q 400.00',
+                    imagen: '../img/products/f2.png',
+                    descripcion: 'Audífonos JBL Vibe Beam, sonido potente y claro, perfectos para el día a día, música y llamadas.',
+                    caracteristicas: [
+                        'Sonido JBL de alta calidad.',
+                        'Conexión Bluetooth estable.',
+                        'Diseño cómodo para uso prolongado.',
+                        'Ideales para música, videojuegos y llamadas.'
+                    ]
+                },
+                airpods4nc: {
+                    nombre: 'AirPods 4 con cancelación de ruido',
+                    precio: 'Q 1,300.00',
+                    imagen: '../img/products/f3.png',
+                    descripcion: 'AirPods 4 con cancelación activa de ruido, ideales para escuchar música sin distracciones.',
+                    caracteristicas: [
+                        'Cancelación activa de ruido.',
+                        'Modo ambiente para escuchar el entorno.',
+                        'Gran autonomía de batería.',
+                        'Compatibles con dispositivos Apple y otros.'
+                    ]
+                },
+                airpods4: {
+                    nombre: 'AirPods 4 normales',
+                    precio: 'Q 100.00',
+                    imagen: '../img/products/f4.png',
+                    descripcion: 'AirPods 4 estándar, cómodos y ligeros, perfectos para uso diario.',
+                    caracteristicas: [
+                        'Diseño ligero y ergonómico.',
+                        'Buena calidad de sonido.',
+                        'Fáciles de conectar y usar.',
+                        'Ideales para música, podcasts y llamadas.'
+                    ]
+                }
+            };
+
+            // 3. Elegir el producto correcto (o MacBook por defecto)
+            const p = productos[productKey] || productos.macbook;
+
+            // 4. Rellenar el DOM
+            document.getElementById('product-name').textContent = p.nombre;
+            document.getElementById('product-price').textContent = p.precio;
+            document.getElementById('product-description').textContent = p.descripcion;
+
+            // Imagen principal y miniaturas
+            const mainImg = document.getElementById('mainImg');
+            mainImg.src = p.imagen;
+            mainImg.alt = p.nombre;
+
+            ['thumb1','thumb2','thumb3','thumb4'].forEach(id => {
+                const el = document.getElementById(id);
+                if (el) {
+                    el.src = p.imagen;
+                    el.alt = p.nombre;
+                }
+            });
+
+            // Lista de características
+            const featuresUl = document.getElementById('product-features');
+            featuresUl.innerHTML = '';
+            p.caracteristicas.forEach(texto => {
+                const li = document.createElement('li');
+                li.textContent = texto;
+                featuresUl.appendChild(li);
+            });
+
+            // 5. Botón de WhatsApp
+            const numeroWhatsApp = '50200000000'; // 🔴 CAMBIA ESTO POR TU NÚMERO REAL
+            const mensaje = `Hola, vi el producto ${p.nombre} en el catálogo de IXCHEL y me gustaría más información.`;
+            const enlaceWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`;
+
+            const waBtn = document.getElementById('whatsapp-btn');
+            waBtn.href = enlaceWhatsApp;
+        </script>
         
     </body>
 
