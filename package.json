@@ -1,0 +1,24 @@
+{
+  "name": "ixchelapp",
+  "version": "1.0.0",
+  "description": "Cara Ecommerce is a sleek, user-friendly, and responsive online shopping platform built entirely with Vanilla JavaScript, HTML, and CSS. This repository contains the frontend part of the website, providing a seamless shopping experience for users across various devices.",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve -s . -l $PORT",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ANDERSITOGT/IxchelApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ANDERSITOGT/IxchelApp/issues"
+  },
+  "homepage": "https://github.com/ANDERSITOGT/IxchelApp#readme",
+  "dependencies": {
+    "serve": "^14.2.5"
+  }
+}
