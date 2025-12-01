@@ -42,7 +42,25 @@
     <!-- Product Detail -->
     <section id="prodetails" class="section-p1">
         <!-- Imagen principal del producto -->
-        <div class="single-pro-img">
+        <div class="single-pro-img" style="position: relative;">
+            <!-- Etiqueta AGOTADO -->
+            <span
+                style="
+                    position:absolute;
+                    top:10px;
+                    left:10px;
+                    background:#c0392b;
+                    color:#fff;
+                    padding:6px 12px;
+                    font-weight:bold;
+                    border-radius:4px;
+                    font-size:0.9rem;
+                    text-transform:uppercase;
+                "
+            >
+                Agotado
+            </span>
+
             <img src="../img/products/f1.jpg" alt="MacBook Air M4" width="100%" id="mainImg">
 
             <div class="small-img-group">
@@ -56,7 +74,12 @@
         <div class="single-pro-details">
             <h5>Inicio / Catálogo</h5>
             <h4>MacBook Air M4</h4>
-            <h2>Q 8,500.00</h2>
+
+            <!-- Precio tachado y mensaje de agotado -->
+            <h2 style="text-decoration: line-through; color:#888;">Q 8,500.00</h2>
+            <p style="color:#c0392b; font-weight:bold; margin-top:4px;">
+                Producto agotado – ya no quedan unidades disponibles.
+            </p>
 
             <h4>Descripción del producto</h4>
             <span>
@@ -73,16 +96,20 @@
                 <li>Ideal para ofimática, estudio, navegación y contenido multimedia.</li>
             </ul>
 
-            <!-- Botón de WhatsApp -->
+            <!-- Mensaje y botón de WhatsApp ajustado -->
             <div style="margin-top: 20px;">
-                <p><strong>¿Te interesa este producto?</strong></p>
+                <p><strong>Este modelo ya se vendió.</strong></p>
+                <p>
+                    Si te interesa una Mac similar, escríbenos por WhatsApp y 
+                    te avisamos cuando tengamos otra disponible o te mostramos opciones parecidas.
+                </p>
                 <a 
                     class="normal" 
                     style="display:inline-block; text-align:center; text-decoration:none;"
-                    href="https://wa.me/50232913147?text=Hola%2C%20vi%20la%20MacBook%20Air%20M4%20en%20el%20cat%C3%A1logo%20de%20IXCHEL%20y%20me%20gustar%C3%ADa%20m%C3%A1s%20informaci%C3%B3n."
+                    href="https://wa.me/50232913147?text=Hola%2C%20vi%20la%20MacBook%20Air%20M4%20en%20el%20cat%C3%A1logo%20de%20IXCHEL%20y%20vi%20que%20est%C3%A1%20agotada.%20Me%20gustar%C3%ADa%20saber%20si%20tienes%20alguna%20Mac%20similar%20disponible."
                     target="_blank"
                 >
-                    Comprar por WhatsApp
+                    Quiero una Mac similar
                 </a>
             </div>
         </div>

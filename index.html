@@ -113,9 +113,27 @@
 
         <div class="pro-container">
 
-            <!-- 1. MacBook Air M4 -->
-            <div class="pro">
+            <!-- 1. MacBook Air M4 (AGOTADO) -->
+            <div class="pro" style="position: relative;">
                 <a href="./subpages/sproduct-macbook.html">
+                    <!-- Etiqueta AGOTADO sobre la imagen -->
+                    <span
+                        style="
+                            position:absolute;
+                            top:10px;
+                            left:10px;
+                            background:#c0392b;
+                            color:#fff;
+                            padding:4px 10px;
+                            font-weight:bold;
+                            border-radius:4px;
+                            font-size:0.8rem;
+                            text-transform:uppercase;
+                        "
+                    >
+                        Agotado
+                    </span>
+
                     <img src="./img/products/f1.jpg" alt="MacBook Air M4">
                     <div class="des">
                         <span>IXCHEL</span>
@@ -127,7 +145,12 @@
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                         </div>
-                        <h4>Q 8,500.00</h4>
+                        <!-- Precio tachado -->
+                        <h4 style="text-decoration: line-through; color:#888;">Q 8,500.00</h4>
+                        <!-- Mensaje de agotado -->
+                        <p style="color:#c0392b; font-weight:bold; font-size:0.85rem; margin-top:4px;">
+                            Producto agotado
+                        </p>
                     </div>
                 </a>
             </div>
@@ -187,6 +210,8 @@
                 </a>
             </div>
 
+
+
         </div>
     </section>
 
@@ -215,8 +240,8 @@
 
     <!-- Feature Banner -->
     <section id="banner3">
-<!-- Feature Banner 
-
+        <!-- Has dejado este bloque comentado, lo respetamos -->
+        <!--
         <div class="banner-box">
             <h4>OFERTAS DE TEMPORADA</h4>
             <h3>Descuentos en tecnología usada</h3>
@@ -229,8 +254,7 @@
             <h4>PC Y LAPTOPS</h4>
             <h3>Listas para trabajar o estudiar</h3>
         </div>
--->
-
+        -->
     </section>
 
     <!-- Footer -->
